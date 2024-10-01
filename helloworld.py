@@ -1,1 +1,1 @@
-print("Hello World")
+print("seminar z programovania")
