@@ -17,7 +17,8 @@ for i in card_parne:
 for i in card_neparne:
     sucet += i
     
-if sucet % 10 == 0:
+#if sucet % 10 == 0:
+    
     
     
 
