@@ -1,15 +1,13 @@
-cislo = int(input('zadajte cislo: '))
-delitele = []
+#cislo = int(input('zadajte cislo: '))
 
-for i in range(1, cislo + 1):
-    if cislo % i == 0:
-        delitele.append(i)
-        
-print(delitele)
+def delitele_cisla(cislo):
+    delitele = []
 
-if len(delitele) <= 2:
-    print('dane cislo je prvocislo')
+    for i in range(1, cislo + 1):
+        if cislo % i == 0:
+            delitele.append(i)
+            
+    return delitele
     
-else:
-    print('dane cislo je zlozene cislo')
-    
+
+print(delitele_cisla(192))
