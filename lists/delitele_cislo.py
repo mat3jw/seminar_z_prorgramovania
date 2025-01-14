@@ -10,4 +10,4 @@ def delitele_cisla(cislo):
     return delitele
     
 
-print(delitele_cisla(192))
+print(delitele_cisla(197))
