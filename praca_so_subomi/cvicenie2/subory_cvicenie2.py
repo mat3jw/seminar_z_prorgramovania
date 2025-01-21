@@ -25,7 +25,7 @@ with open("ucenie_sa_slovicok.txt", encoding= "utf-8") as subor:
         
 #3
     pozicia = randint(0, len(svk2) - 1)
-    odpoved = input(f"Preloz slovo ::{eng2[pozicia]}::")
+    odpoved = input(f"Preloz slovo {eng2[pozicia]}:")
     if odpoved == svk2[pozicia]:
         print("spravny preklad")
     else:
