@@ -46,6 +46,9 @@ while hra_pokracuje:
     
 
     #zmena stavu hry
+
+     ball.x += dx
+     ball.y += dy
     #odraz lopty
     if ball.colliderect(racket1) or ball.colliderect(racket2):
         dx = -dx
