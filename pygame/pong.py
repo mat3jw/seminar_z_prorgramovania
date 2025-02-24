@@ -46,29 +46,23 @@ while hra_pokracuje:
     
 
     #zmena stavu hry
-    ball.x += dx
-    ball.y += dy
-
-        #odraz lopty
+    #odraz lopty
     if ball.colliderect(racket1) or ball.colliderect(racket2):
         dx = -dx
 
-    if not(0 <= ball.x <= WIDTH - ball_width):
-        ball.x = x
-        ball.y = y
+    if ball.x < 0:
+        score_right += 1
+        ball.x = WIDTH // 2
+        ball.y = HEIGHT // 2
+
+    if ball.x > WIDTH - ball_width:
+        score_left += 1  
+        ball.x = WIDTH // 2
+        ball.y = HEIGHT // 2
 
     if not(0 <= ball.y <= HEIGHT - ball_height):   
         dy = -dy
 
-    if ball.x < 0:
-        ball.x = WIDTH/2
-        ball.y = HEIGHT/2
-        score_right += 1
-
-    if ball.x > WIDTH:
-        ball.x = WIDTH/2
-        ball.y = HEIGHT/2
-        score_left += 1
 
     #vykreslenie stavu hry
     screen.fill((0, 0, 0))
