@@ -6,11 +6,12 @@ HEIGHT = 900
 ball_width = 30
 ball_height = 30
 pygame.init()
+ball_radius = 15
 screen = pygame.display.set_mode((WIDTH, HEIGHT))
 hra_pokracuje = True
 x, y = 710, 390
 dx, dy = 2, 2
-ball = pygame.Rect(x , y , ball_width, ball_height)
+ball = pygame.draw.circle(screen, "white", (x,y), ball_radius)
 font = pygame.font.Font(None, 72)
 score_left, score_right = 0, 0
 
@@ -46,29 +47,25 @@ while hra_pokracuje:
     
 
     #zmena stavu hry
-    ball.x += dx
-    ball.y += dy
+    x += dx
+    y += dy
 
-        #odraz lopty
-    if ball.colliderect(racket1) or ball.colliderect(racket2):
+    #odraz lopty
+    if (x - ball_radius <= racket1.right and racket1.top <= y <= racket1.bottom):
+        dx = -dx
+    if (x + ball_radius >= racket2.left and racket2.top <= y <= racket2.bottom):
         dx = -dx
 
-    if not(0 <= ball.x <= WIDTH - ball_width):
-        ball.x = x
-        ball.y = y
-
-    if not(0 <= ball.y <= HEIGHT - ball_height):   
-        dy = -dy
-
-    if ball.x < 0:
-        ball.x = WIDTH/2
-        ball.y = HEIGHT/2
+    if x - ball_radius < 0:
         score_right += 1
-
-    if ball.x > WIDTH:
-        ball.x = WIDTH/2
-        ball.y = HEIGHT/2
+        x,y = WIDTH // 2, HEIGHT // 2
+    
+    if x + ball_radius > WIDTH:
         score_left += 1
+        x,y = WIDTH // 2, HEIGHT // 2
+
+    if not (ball_radius <= y <= HEIGHT - ball_radius):
+        dy = -dy
 
     #vykreslenie stavu hry
     screen.fill((0, 0, 0))
@@ -84,7 +81,7 @@ while hra_pokracuje:
                              
 
 
-    pygame.draw.rect(screen, "white", ball)
+    pygame.draw.circle(screen, "white", (x, y), ball_radius)
     pygame.draw.rect(screen, "palegreen", racket1)
     pygame.draw.rect(screen, "palegreen", racket2)
     screen.blit(text_left, (WIDTH // 4, 50))
