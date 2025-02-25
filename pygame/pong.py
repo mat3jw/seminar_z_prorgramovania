@@ -33,16 +33,16 @@ while hra_pokracuje:
             hra_pokracuje = False
 
     keys = pygame.key.get_pressed()
-    #right
+   
     if keys[pygame.K_w] and racket1.y > 0:
-        racket1.y -= 2
+        racket1.y -= 1
     if keys[pygame.K_s] and racket1.y < HEIGHT - 4*ball_height:
-        racket1.y += 2
-    #left
+        racket1.y += 1
+    
     if keys[pygame.K_UP] and racket2.y > 0:
-        racket2.y -= 2
+        racket2.y -= 1
     if keys[pygame.K_DOWN] and racket2.y < HEIGHT - 4*ball_height:
-        racket2.y += 2
+        racket2.y += 1
 
     
 
