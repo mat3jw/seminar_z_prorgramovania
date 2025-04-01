@@ -7,12 +7,12 @@ def count_words_symbols(file_path):
     word_freq = {}
     symbol_freq = {}
  
-    file = open(file_path, 'r')
+    file =open(file_path, 'r')
     text = file.read()
     file.close()
  
     # Zmen text na male pismena
-    text.lower()
+    text = text.lower()
  
     words = text.split(' ')
     for word in words:
@@ -27,8 +27,8 @@ def count_words_symbols(file_path):
                     if char in symbol_freq:
                         symbol_freq[char] += 1
                     else:
-                        symbol_freq[char] = 1
- 
+                        symbol_freq[char] == 1
+    
     return word_freq, symbol_freq
  
  
