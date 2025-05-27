@@ -10,7 +10,7 @@ canvas.pack()
 rect1 = [randint(0, WIDTH), randint(0, HEIGHT), randint(0, WIDTH), randint(0, HEIGHT)]
 rect2 = [randint(0, WIDTH), randint(0, HEIGHT), randint(0, WIDTH), randint(0, HEIGHT)]
 
-# Ensure rect1 and rect2 are well-formed (top-left and bottom-right corners)
+
 rect1 = [min(rect1[0], rect1[2]), min(rect1[1], rect1[3]), max(rect1[0], rect1[2]), max(rect1[1], rect1[3])]
 rect2 = [min(rect2[0], rect2[2]), min(rect2[1], rect2[3]), max(rect2[0], rect2[2]), max(rect2[1], rect2[3])]
 
