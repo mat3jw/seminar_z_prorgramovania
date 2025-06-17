@@ -34,7 +34,7 @@ def ustne_skusanie(pocet_ziakov, pocet_otazok):
 #TESTOVANIE PROGRAMU
  #nastavenie poctu otazoka a ziakov
 pocet_ziakov = 30
-pocet_otazok = 20
+pocet_otazok = 30
 ustne_skusanie(pocet_ziakov, pocet_otazok)
 
 
