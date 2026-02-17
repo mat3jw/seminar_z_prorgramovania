@@ -1,0 +1,32 @@
+Downtown Central: 58 132 97 N
+Riverside Point: 41 110 76 N
+Old Town: 25 84 63 L
+North Mall: 66 155 121 N
+East Station: 39 98 54 N
+West End: 22 73 49 L
+University Campus: 71 168 140 N
+Airport Business Park: 18 55 32 L
+Lakeside: 44 102 88 N
+Hillside: 27 79 61 N
+Industrial Zone: 12 46 28 L
+City Arena: 63 149 130 N
+Greenwood: 35 91 77 N
+Meadow Plaza: 28 88 64 N
+Harbor Front: 52 137 119 N
+South Gate: 31 90 58 L
+Tech District: 74 182 151 N
+Maple Street: 20 68 45 N
+Pine Avenue: 16 60 41 L
+Cedar Park: 24 72 50 N
+Stonebridge: 33 95 79 N
+Sunset Boulevard: 48 126 103 N
+Riverbend: 29 86 65 N
+Mountain View: 19 63 44 L
+Grand Hotel Annex: 14 50 33 L
+Suburb East: 37 105 82 N
+Suburb West: 34 99 75 N
+Central Market: 57 144 116 N
+Museum Quarter: 23 70 52 N
+City Hall: 0 0 0 C
+Medical Center: 46 121 94 N
+Sports Complex: 69 160 142 N
