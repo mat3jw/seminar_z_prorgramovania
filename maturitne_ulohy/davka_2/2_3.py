@@ -30,6 +30,6 @@ def spracuj_tricka(nazov_suboru):
             print("kazda farba ma aspon 15 objednavok")
 
     except FileNotFoundError:
-        print("subor nenajdeny")
+        print("subor sa nenasiel")
 
 spracuj_tricka('tshirts.txt')
