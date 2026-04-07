@@ -1,4 +1,43 @@
+#Textový súbor sklenik.txt obsahuje mriežku meraní teploty (v desatinách °C, čiže 178 = 17,8°C) z teplotných senzorov v skleníku. Každý riadok súboru obsahuje celé čísla oddelené medzerami:
 
+ 
+#t_11 t_12 ... t_1c
+#t_21 t_22 ... t_2c
+#...
+#t_r1 t_r2 ... t_rc
+#Príklad:
+
+#215 212 209 220
+#218 225 210 213
+#205 207 211 216
+#Vytvorte program, ktorý zistí a vypíše:
+
+#počet riadkov a počet stĺpcov mriežky,
+#najnižšiu a najvyššiu nameranú teplotu (aj s pozíciou: riadok, stĺpec),
+#priemernú teplotu v skleníku (v desatinách alebo prepočítanú na °C),
+#koľko meraní je nad priemerom a koľko pod priemerom,
+#po zadaní prahovej teploty používateľom (v °C alebo v desatinách) vypíše počet buniek nad týmto prahom,
+#(voliteľné rozšírenie) vypíše počet „kritických miest“ – buniek, ktoré sú aspoň o 15 (t. j. 1,5 °C) vyššie než priemer.
+#Vzorový vstup zo súboru:
+
+#215 212 209 220
+#218 225 210 213
+#205 207 311 316
+
+#Vzorový vstup od užívateľa:
+
+#215
+
+#Vzorový výstup (konzola):
+
+#Pocet riadok: 3
+#Pocet stlpcov: 4
+#Maximum: 316 (riadok 3, stlpec 4)
+#Minimum: 205 (riadok 3, stlpec 1)
+#Priemer: 230.08333333333334
+#Nad priemerom: 2
+#Pod priemerom: 10
+#Nad prahom: 2
 mriezka = []
 with open("sklenik.txt", "r") as f:
     for riadok in f:

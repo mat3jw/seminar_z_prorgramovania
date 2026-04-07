@@ -1,3 +1,28 @@
+# V súbore dobrovolnici.txt je zoznam prihlásených dobrovoľníkov, každý na samostatnom riadku. Formát mena je voľný: môže obsahovať viac slov (titul, viac krstných mien…), ale posledné slovo je vždy priezvisko. Riadok je platný, ak obsahuje aspoň 2 slová. Mená sú bez diakritiky.
+
+# Príklady riadkov:
+
+# Jana Nova
+# Ing. Martin Jozef Hrasko
+# Peter (neplatné)
+# Napíšte program, ktorý:
+
+# načíta súbor a vypíše počet všetkých riadkov,
+# spočíta počet platných a neplatných záznamov,
+# neplatné riadky uloží do neplatne.txt (v pôvodnom znení),
+# pre každý platný záznam vytvorí identifikátor dobrovoľníka (ID) podľa pravidiel:
+# tvar: priezvisko.prvekrstne (malými písmenami),
+# priezvisko = posledné slovo,
+# prvé krstné meno = prvé slovo, ktoré je „meno“ (zjednodušenie: prvé slovo riadku),
+# ak vznikne duplicita, pridajte poradové číslo na koniec: hrasko.martin, hrasko.martin2, hrasko.martin3, …
+# vygeneruje pre každé ID náhodný PIN+heslo:
+# PIN: presne 6 číslic,
+# heslo: aspoň 12 znakov, mix veľkých/malých písmen, číslic a znakov z množiny #$%&+,
+# vytvorí výstupný súbor registracia.csv v tvare:
+
+# id;pin;heslo;Povodny
+                #riadok
+
 import random
 import string
 

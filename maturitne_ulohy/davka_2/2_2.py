@@ -1,3 +1,22 @@
+# Cvičenie č. 2-2: Denné počty návštevníkov fitnescentier
+# Program spracováva záznamy z viacerých pobočiek fitnescentier. Každý vstupný riadok predstavuje jednu pobočku vo forme:
+# NázovPobočky: ráno popoludní večer režim
+
+# Názov pobočky je reťazec končiaci dvojbodkou :
+# Tri čísla predstavujú počty pre ráno / popoludní / večer
+# Režim je jeden znak:
+# N – normálna prevádzka
+# L – obmedzená prevádzka
+# C – zatvorené
+# Počet pobočiek nie je vopred známy (číta sa do konca voľného času). Po prečítaní zobrazte:
+
+# počet pobočiek,
+# priemer (z troch hodnôt) pre každú pobočku,
+# celkový denný priemer vo všetkých pobočkách (s použitím všetkých troch hodnôt pre každú pobočku),
+# najvyššiu a najnižšiu zaznamenanú hodnotu a miesto, kde sa vyskytla (názov pobočky)
+# počet pobočiek v každom režime (N, L, C)
+# Ukážkový vstupný súbor: branches.txt
+
 def spracuj_fitness():
     pocet_pobociek = 0
     suma_vsetkych = 0
