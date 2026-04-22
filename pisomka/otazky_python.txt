@@ -1,0 +1,26 @@
+Ktorý dátový typ je v Pythone nemenný (immutable)?;List;Dictionary;Tuple;Set;C
+Ako sa v Pythone definuje funkcia?;function meno();def meno();void meno();func meno();B
+Ktorý operátor sa používa na celočíselné delenie?;/;//;%;**;B
+Čo vráti výraz 3 * 'A'?;AAA;3A;Chyba;A A A;A
+Ktorá metóda pridá prvok na koniec zoznamu?;add();insert();push();append();D
+Ako začína blok kódu v cykle alebo podmienke?;Bodkou;Čiarkou;Dvojbodkou;Bodkočiarkou;C
+Ktorá knižnica sa najčastejšie používa na analýzu dát?;Pandas;PyGame;Requests;Turtle;A
+Ktorý kľúčový výraz sa používa na ošetrenie výnimiek?;catch;try;error;rescue;B
+Čo robí funkcia len()?;Meria teplotu;Vráti dĺžku objektu;Maže súbor;Vypne PC;B
+Tento riadok je chybný;IbaTriPoložky;B
+Ktorý symbol sa používa na komentovanie v Pythone?;//;/*;#;--;C
+Ako získate vstup od používateľa?;get();read();input();scanf();C
+Ktorý dátový typ uchováva dvojice kľúč-hodnota?;List;Set;String;Dictionary;D
+Ktorá funkcia vypíše text do konzoly?;echo();print();log();display();B
+Aká je hodnota výrazu 10 % 3?;1;3;0.33;0;A
+Ako sa volá metóda na odstránenie bielych znakov z krajov reťazca?;clean();trim();strip();cut();C
+Ktorým kľúčovým slovom vytvoríme triedu?;object;struct;class;new;C
+Čo vráti bool(0)?;True;False;None;Chyba;B
+Ktorý modul v Pythone umožňuje prácu s náhodnými číslami?;math;random;chance;dice;B
+Ako sa importuje knižnica?;load math;using math;import math;include math;C
+Chybný riadok bez odpovedí a indexu;D
+Ktorá metóda vráti všetky kľúče zo slovníka?;all();keys();index();get_keys();B
+Ako zistíme typ premennej x?;typeof(x);type(x);get_type(x);instance(x);B
+Ktorý operátor slúži na umocňovanie?;^;exp;**;pow;C
+Čo robí príkaz break?;Ukončí cyklus;Preskočí iteráciu;Vypne program;Reštartuje funkciu;A
+Ktorá dátová štruktúra nepovoľuje duplikáty?;List;Tuple;Set;Dictionary;C

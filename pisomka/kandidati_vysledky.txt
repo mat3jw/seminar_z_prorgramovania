@@ -1,0 +1,4 @@
+matej;42.86%
+& "C:/Program Files/Python314/python.exe" c:/Users/VlčekMatej/seminar_z_prorgramovania/pisomka/pisomka4.py;60.00%
+aaa;16.67%
+s;0.00%
