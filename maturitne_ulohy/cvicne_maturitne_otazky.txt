@@ -1,0 +1,13 @@
+1. ktora cast pocitaca sprostredkuva matematicke operacie. Ake dve velke cisla vie pocitac spocitat naraz a od coho to zavisi?
+2. navrhnite moznosti distribuovania internetu po vasej domacnosti (vyhody/nevyhody)
+3. ako by ste ochranili svoj subor lokalne vo svojom pocitaci alebo aj pri presune v sieti?
+4. zdielanie webovej stranky a moznosti jej ochrany
+5. parametre zvukovej nahravky - urcenie velkosti suboru a porovnanie s roznymi formatmi
+6. hardver a operacny system, aky je medzi nimi vztah a ci zavisi vyber operacneho systemu od hardveru, ktory mame
+7. ktore protokoly siete nam umoznuju stiahnut obsah zo servera? ake su bezpecne?
+8. ako zistim, ze som subor stiahol zo servera bez chyby
+9. ip adresa a sposoby jej pridelovania
+10. 
+11. 
+12.
+13.
