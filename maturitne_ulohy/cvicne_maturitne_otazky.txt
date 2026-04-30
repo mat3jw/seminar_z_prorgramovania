@@ -7,7 +7,8 @@
 7. ktore protokoly siete nam umoznuju stiahnut obsah zo servera? ake su bezpecne?
 8. ako zistim, ze som subor stiahol zo servera bez chyby
 9. ip adresa a sposoby jej pridelovania
-10. 
-11. 
-12.
-13.
+10. digitalizacia obrazka - skener vs ine metody, aky je medzi nimi rozdiel + vyhody a nevyhody
+11. ako by ste si zabezpecili svoj obrazok pred ostatnymi uzivatelmi pocitaca? (vyhody/nevyhody)
+12. elektronicka posta IMAP vs POP3
+13. metoda skryvania textu v obrazku
+14. darkweb vs deepweb
