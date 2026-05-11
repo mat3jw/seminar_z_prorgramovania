@@ -1,3 +1,5 @@
+<<<<<<< HEAD
+=======
 from tkinter import *
 from random import *
 
@@ -33,3 +35,4 @@ def kruzok(suradnice):
 
 canvas.tag_bind("vyherny_stvorec", "<Button-1>", kruzok)
 window.mainloop()  
+>>>>>>> 2f05e4996b29749990bbee7c401884d1619f0d44
