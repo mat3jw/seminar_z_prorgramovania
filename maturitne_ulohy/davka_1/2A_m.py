@@ -11,7 +11,7 @@ with open("dobrovolnici.txt") as file, open("neplatne.txt", "w") as neplatne_fil
         riadkov += 1
         casti_mena = riadok.strip().split()
         print(casti_mena)
-    
+
         if len(casti_mena) < 2:
             neplatne_file.write(f"{riadok}")
             neplatne += 1
@@ -19,15 +19,13 @@ with open("dobrovolnici.txt") as file, open("neplatne.txt", "w") as neplatne_fil
 
         platne += 1
         priezvisko = casti_mena[-1]
-        
         prve_meno = ""
         for meno in casti_mena:
-            if meno not in ["Ing.", "Mgr.", "Bc."]:
+            if meno not in("Ing.", "Mgr.", "Bc."):
                 prve_meno = meno
                 break
-
         print(prve_meno, priezvisko)
-        id_dobrovolnika = priezvisko.lower()  + "." + prve_meno.lower()
+        id_dobrovolnika = priezvisko.lower() + "." + prve_meno.lower()
 
         poradie = 1
         while id_dobrovolnika in dobrovolnici:
@@ -36,15 +34,14 @@ with open("dobrovolnici.txt") as file, open("neplatne.txt", "w") as neplatne_fil
                 break
             else:
                 poradie += 1
-
         dobrovolnici.append(id_dobrovolnika)
 
         pin = ""
         for i in range(6):
-            pin += str(random.randint(0, 9))
-        
-        heslo = ""
+            pin += str(random.randint(0,9))
+    
         znaky = string.ascii_letters + string.digits + "#$%&+"
+        heslo = ""
         for i in range(12):
             heslo += random.choice(znaky)
 

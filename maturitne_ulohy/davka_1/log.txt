@@ -1,0 +1,9 @@
+2026-01-20 12:00:01 INFO  sensor=wind speed=5.2m/s status=ok
+2026-01-20 12:00:05 WARN  sensor=rain value=0.0mm reason=timeout?
+2026-01-20 12:00:12 INFO  station reboot requested by admin.
+ping: host=meteo.local seq=1 time=12ms
+ping: host=meteo.local seq=2 time=11ms
+error: cannot open file /var/data/raw.csv (permission denied)
+note: calibrate at 13:30; do not power off!
+gps fix: lat=48.1486N lon=17.1077E
+backup completed: 3 files, 0 failed.
